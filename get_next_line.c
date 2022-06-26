@@ -116,16 +116,3 @@ char	*get_next_line(int fd)
 	str = ft_newline(str);
 	return (s);
 }
-
-// int main()
-// {
-// 	int fd = open("f.txt", O_RDONLY);
-// 	// printf("%d", fd);
-// 	printf("%s", get_next_line(fd));
-// 	int fd1 = open("fo.txt", O_RDONLY);
-// 	printf("%s", get_next_line(fd1));
-// 	int fd2 = open("foo.txt", O_RDONLY);	
-// 	printf("%s", get_next_line(fd2));
-// 	int fd3 = open("fooo.txt", O_RDONLY);
-// 	printf("%s", get_next_line(fd3));
-// }
